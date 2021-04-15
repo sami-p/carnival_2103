@@ -1,2 +1,4 @@
 class Attendee
-end 
+  def initialize(name, age)
+  end 
+end
