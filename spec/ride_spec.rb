@@ -1,5 +1,6 @@
 require 'rspec'
 require './lib/ride'
+require './lib/attendee'
 
 RSpec.describe Ride do
   it 'exists' do
