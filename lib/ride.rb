@@ -1,2 +1,4 @@
 class Ride
-end 
+  def initialize(ride_info)
+  end 
+end
