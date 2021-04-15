@@ -1,2 +1,5 @@
 class Carnival
-end 
+
+  def initialize(name)
+  end
+end
