@@ -12,5 +12,6 @@ class Carnival
   end
 
   def recommend_rides(attendee)
+    recommendations = attendee.interests
   end
 end
