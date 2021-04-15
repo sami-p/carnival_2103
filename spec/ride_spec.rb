@@ -11,4 +11,9 @@ RSpec.describe Ride do
     ride = Ride.new({name: 'Ferris Wheel', cost: 0})
     expect(ride.name).to eq('Ferris Wheel')
   end
+
+  it 'has a cost' do
+    ride = Ride.new({name: 'Ferris Wheel', cost: 0})
+    expect(ride.cost).to eq(0)
+  end
 end
