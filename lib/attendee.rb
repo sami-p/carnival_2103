@@ -1,4 +1,7 @@
 class Attendee
+  attr_reader :name
+  
   def initialize(name, age)
-  end 
+    @name = name
+  end
 end
